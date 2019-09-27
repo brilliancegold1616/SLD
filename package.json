@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "npm gh-pages -d build"
+    
   },
   "keywords": [],
   "author": "",
