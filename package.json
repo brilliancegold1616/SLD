@@ -1,14 +1,11 @@
 {
-  "name": "SchdLDz",
+  "name": "SLD",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "home": "./",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build"
-	"predeploy": "npm run build"
-    "deploy": "npm gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -16,23 +13,29 @@
   "devDependencies": {
     "cross-env": "^5.2.0",
     "react-hot-loader": "^4.9.0",
-    "react-scripts": "^2.1.8"
+    "react-scripts": "^3.1.2"
   },
   "dependencies": {
-    "@vkontakte/icons": "^1.9.0",
-    "@vkontakte/vk-connect": "^1.5.6",
+    "@vkontakte/icons": "^1.10.0",
+    "@vkontakte/vk-connect": "^1.6.5",
     "@vkontakte/vkui": "^2.30.7",
-    "babel-eslint": "^9.0.0",
+    "babel-eslint": "^10.0.3",
     "chalk": "^2.4.2",
     "core-js": "^3.1.4",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

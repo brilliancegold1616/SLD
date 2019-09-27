@@ -1,3 +1,0 @@
-npm i gh-pages
-npm Clean-install
-nmp i gh-pages

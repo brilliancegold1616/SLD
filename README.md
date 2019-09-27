@@ -30,11 +30,6 @@ Firstly, you have to create Surge account and Surge-domain — https://surge.sh/
 
 `npx @vkontakte/create-vk-mini-app <app-directory-name> --surge <surge-domain>`
 
-## Use Connect lib based on promise
-Just add `--promise` flag. More info about **vkui-connect-promise** — https://www.npmjs.com/package/@vkontakte/vkui-connect-promise
-
-`npx @vkontakte/create-vk-mini-app <app-directory-name> --promise`
-
 ## How to start work with app
 
 Go to created folder and run:
@@ -46,4 +41,4 @@ Go to created folder and run:
 [npm-url]: https://npmjs.com/package/@vkontakte/create-vk-mini-app
 
 [deps]: https://img.shields.io/david/vkcom/create-vk-mini-app.svg
-[deps-url]: https://david-dm.org/vkcom/create-vk-mini-app"# SLD" 
+[deps-url]: https://david-dm.org/vkcom/create-vk-mini-app
