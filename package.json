@@ -2,7 +2,7 @@
   "name": "SLD",
   "version": "1.0.0",
   "description": "",
-  "homepages": " https://brilliancegold1616.github.io/SLD",
+  "homepages": "./",
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
