@@ -5,6 +5,7 @@ npm-debug.log*
 *.lock
 
 # Dependency directories
+README.md
 package-lock.json
 /node_modules
 
