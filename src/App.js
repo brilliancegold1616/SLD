@@ -2,7 +2,7 @@ import React from 'react';
 import connect from '@vkontakte/vk-connect';
 import { View } from '@vkontakte/vkui';
 import '@vkontakte/vkui/dist/vkui.css';
-import BrowserRouter from 'react-router-dom/BrowserRouter'
+
 
 import Home from './panels/Home';
 import Persik from './panels/Persik';
@@ -44,5 +44,6 @@ class App extends React.Component {
 	}
 
 }
+
 
 export default App;
