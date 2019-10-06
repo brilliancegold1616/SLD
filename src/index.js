@@ -4,6 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import connect from '@vkontakte/vk-connect';
 import App from './App';
+import BrowserRouter from 'react-router-dom/BrowserRouter'
 // import registerServiceWorker from './sw';
 
 // Init VK  Mini App
@@ -15,4 +16,9 @@ connect.send('VKWebAppInit', {});
 // Подробнее про сервис воркеры можно почитать тут — https://vk.cc/8MHpmT
 // registerServiceWorker();
 
-ReactDOM.render(<App />, document.getElementById('root'));
+//ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render((
+   <BrowserRouter basename={process.env.PUBLIC_URL}>
+     <App />
+   </BrowserRouter>
+), document.getElementById('root'))  
